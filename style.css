@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans&family=Open+Sans&family=Roboto:ital@0;1&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.main-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #E5D4CD;
+    display: flex;
+    
+
+}
+
+.container1 {
+    width: 30%;
+    height: auto;
+    background-color: #D1EDC0;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.container1 img{
+    padding-left: 50px;
+}
+.container1 h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: #2F251D;
+    font-weight: bold;
+}
+
+.container1 p {
+    font-size: 19px;
+    text-align: start;
+    padding-left: 100px;
+    line-height: 25px;
+    color: #25282B;
+}
+
+button {
+    margin-top: 10px;
+    width: 420px;
+    height: 50px;
+    background-color: #25282B;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.container2 {
+    width: 30%;
+    height: auto;
+    background-color: #FAF4F1;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 30px;
+    padding: 5%;
+    /* margin-inline: 5%; */
+}
+
+.container2 span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 10px;
+}
+
+.container2 i {
+    font-size: 30px;
+}
+
+.container2 h3 {
+    padding-right: 210px;
+}
+
+.container2 h1 {
+    color: #2F251D;
+    font-size: 30px;
+    padding-top: 30px;
+
+}
+
+.container2 p {
+    font-size: 25px;
+    color: #2F251D;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* font-weight: bold; */
+}
+
+.img2 {
+    padding: 20px;
+}
+
+.img2 p i {
+    font-size: 20px;
+}
+
+.img2 input {
+    width: 420px;
+    height: 55px;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 22px;
+    padding-left: 15px;
+
+}
+
+.img2 h5 {
+    font-size: 20px;
+    color: #534A43;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+}
+
+.img2 a {
+    text-decoration: none;
+    color: #595a5a;
+
+}
+
+.img2 img {
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.sub-img {
+    width: 100%;
+    height: 331px;
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    background-color: #FFFFFF;
+    padding-inline: 15px;
+    padding-top: 10px;
+}
+
+.sub-img h5 {
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+}
+
+.sub-img a {
+    color: #595a5a;
+    text-decoration: none;
+}
+
+.active1 {
+    width: 100%;
+    height: 120px;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 20px;
+    padding-inline: 10px;
+    margin-bottom: 10px;
+}
+
+.active1 p {
+    font-size: 15px;
+    color: #595a5a;
+}
+
+.active1 h2 {
+    font-size: 18px;
+    color: #25282B;
+
+}
+
+.active2 {
+    width: 100%;
+    height: 110px;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 20px;
+    padding: 10px;
+    border-bottom: none;
+}
+
+.active2 p {
+    font-size: 15px;
+    color: #595a5a;
+}
+
+.active2 h2 {
+    font-size: 18px;
+    color: #25282B;
+}
+
+.active1 p i {
+    font-size: 16px;
+}
+
+.icon-sec {
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: gray;
+    border-radius: 20px;
+}
+
+.container3 {
+    width: 30%;
+    height: auto;
+    background-color: #D1EDC0;
+    /* display: flex; */
+    /* align-items: center; */
+    justify-content: space-around;
+    /* flex-direction: column; */
+    border-radius: 30px;
+    padding: 5%;
+}
+
+.container3 span {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 20px;
+    padding-block: 20px;
+}
+
+.container3 i:nth-child(2) {
+    /* margin-left: 300px; */
+    font-size: 40px;
+}
+
+.container3 i:nth-child(1) {
+    /* margin-left: 350px; */
+    font-size: 40px;
+}
+
+.sub-container {
+    width: 100%;
+    height: 666px;
+    background-color: #FFFFFF;
+    border-radius: 25px;
+    padding-inline: 40px;
+    padding-top: 40px;
+
+}
+
+.line {
+    width: 100%;
+    height: 5px;
+    display: flex;
+    /* padding-inline:25px; */
+    padding-bottom: 20px;
+
+}
+
+.line1 {
+    width: 65%;
+    height: 5px;
+    background-color: #25282B;
+    display: flex;
+    border-radius: 20px;
+
+}
+
+.line2 {
+    width: 35%;
+    height: 5px;
+    background-color: #b4b6b6;
+    border-radius: 0px 10px 10px 0px;
+}
+.id-box{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    column-gap: 30px;
+    /* padding-left: 8px; */
+    padding-block: 25px;
+}
+.task{
+    padding-left: 15px;
+    padding-top: 12px;
+    border-radius: 15px;
+    width: 160px;
+    height: 80px;
+    background-color: #FFE7AB;
+}
+
+.track{
+    padding-left: 15px;
+    padding-top: 12px;
+    border-radius: 15px;
+    width: 160px;
+    height: 80px;
+    background-color: #FFE7AB;
+}
+h4{
+    font-size: 25px;
+    padding-block: 15px;
+    color: #25282B;
+}
+p{
+    color: #595a5a;
+    line-height: 22px;
+}
+.icon-sec2{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    /* border-radius: 20px; */
+    padding-top: 55px;
+
+}
+
+@media (max-width:768px) {
+    .main-container{
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+    }
+    button{
+        /* width: 375px; */
+        /* margin-left: 180px; */
+    }
+
+    .container1{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .container1 p{
+        padding-right: 10px;
+    }
+    .container2{
+        width: 100%;
+        height: auto;
+        /* padding-inline: 50px; */
+
+    }
+    .container3{
+        width: 100%;
+    }
+    
+    
+
+}
