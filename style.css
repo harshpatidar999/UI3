@@ -14,7 +14,7 @@
     justify-content: space-evenly;
     background-color: #E5D4CD;
     display: flex;
-    
+
 
 }
 
@@ -27,12 +27,13 @@
     justify-content: center;
     flex-direction: column;
     border-radius: 30px;
-    padding: 5%;
+    /* padding: 5%; */
 }
 
-.container1 img{
+.container1 img {
     padding-left: 50px;
 }
+
 .container1 h1 {
     font-size: 40px;
     text-align: center;
@@ -72,7 +73,7 @@ button {
     justify-content: center;
     flex-direction: column;
     border-radius: 30px;
-    padding: 5%;
+    /* padding: 5%; */
     /* margin-inline: 5%; */
 }
 
@@ -229,7 +230,7 @@ button {
     justify-content: space-around;
     /* flex-direction: column; */
     border-radius: 30px;
-    padding: 5%;
+    /* padding: 5%; */
 }
 
 .container3 span {
@@ -283,7 +284,8 @@ button {
     background-color: #b4b6b6;
     border-radius: 0px 10px 10px 0px;
 }
-.id-box{
+
+.id-box {
     width: 100%;
     height: auto;
     display: flex;
@@ -292,7 +294,8 @@ button {
     /* padding-left: 8px; */
     padding-block: 25px;
 }
-.task{
+
+.task {
     padding-left: 15px;
     padding-top: 12px;
     border-radius: 15px;
@@ -301,7 +304,7 @@ button {
     background-color: #FFE7AB;
 }
 
-.track{
+.track {
     padding-left: 15px;
     padding-top: 12px;
     border-radius: 15px;
@@ -309,16 +312,19 @@ button {
     height: 80px;
     background-color: #FFE7AB;
 }
-h4{
+
+h4 {
     font-size: 25px;
     padding-block: 15px;
     color: #25282B;
 }
-p{
+
+p {
     color: #595a5a;
     line-height: 22px;
 }
-.icon-sec2{
+
+.icon-sec2 {
     width: 100%;
     height: 50px;
     background-color: white;
@@ -332,36 +338,48 @@ p{
 }
 
 @media (max-width:768px) {
-    .main-container{
+    .main-container {
         width: 100%;
         height: auto;
         flex-direction: column;
     }
-    button{
+
+    button {
         /* width: 375px; */
         /* margin-left: 180px; */
     }
 
-    .container1{
+    .container1 {
         width: 100%;
         height: auto;
         display: flex;
         align-items: center;
         justify-content: center;
+        padding: 5%;
     }
-    .container1 p{
+
+    .container1 img:first-child {
+        margin-right: 70%;
+
+    }
+
+    .container1 p {
         padding-right: 10px;
     }
-    .container2{
+
+    .container2 {
         width: 100%;
         height: auto;
         /* padding-inline: 50px; */
+        padding: 5%;
+    }
 
-    }
-    .container3{
+    .container3 {
         width: 100%;
+        height: auto;
+        padding: 5%;
     }
-    
-    
+
+
 
 }
